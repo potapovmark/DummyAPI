@@ -36,7 +36,6 @@ form.addEventListener('submit', async (e) => {
 
     userInfo.innerHTML = `
       <h2>Информация о пользователе</h2>
-      <p><b>ID:</b> ${data.id}</p>
       <p><b>Имя:</b> ${data.firstName} ${data.lastName}</p>
       <p><b>Почта:</b> ${data.email}</p>
       <p><b>Имя пользователя:</b> ${data.username}</p>
